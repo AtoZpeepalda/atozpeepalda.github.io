@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AtoZ CSC & eMitra Center</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    .service-card:hover {
+      transform: translateY(-5px);
+      transition: transform 0.3s ease;
+    }
+  </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
   <header class="bg-blue-700 text-white p-6">
@@ -14,36 +21,51 @@
 
   <main class="p-6 space-y-10">
     <section class="text-center">
+      <img src="https://via.placeholder.com/200x200.png?text=Your+Photo" alt="Rakesh Sharma" class="mx-auto rounded-full shadow-lg mb-4 w-40 h-40 object-cover">
       <h2 class="text-xl font-semibold mb-4">हमारी सेवाएं (Services)</h2>
       <p class="mb-4">CSC और ई-मित्र केंद्र की सभी सेवाएं एक ही स्थान पर उपलब्ध हैं।</p>
-      <ul class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-        <li>✅ आधार अपडेट / प्रिंट</li>
-        <li>✅ पैन कार्ड</li>
-        <li>✅ बिजली बिल भुगतान</li>
-        <li>✅ जल जीवन मिशन</li>
-        <li>✅ जन्म/मृत्यु प्रमाण पत्र</li>
-        <li>✅ आय / जाति / निवास प्रमाण पत्र</li>
-        <li>✅ बैंकिंग सेवा (CSP)</li>
-        <li>✅ सरकारी योजनाएं आवेदन</li>
-      </ul>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+        <div class="service-card p-3 bg-white shadow rounded">✅ आधार अपडेट / प्रिंट</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ नया पैन कार्ड / सुधार</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ बिजली बिल भुगतान</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ जल जीवन मिशन आवेदन</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ जन्म प्रमाण पत्र</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ मृत्यु प्रमाण पत्र</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ आय / जाति / निवास प्रमाण पत्र</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ बैंकिंग सेवा (CSP)</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ श्रमिक कार्ड</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ सामाजिक सुरक्षा पेंशन</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ राशन कार्ड आवेदन</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ किसान रजिस्ट्रेशन</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ पासपोर्ट आवेदन</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ वोटर कार्ड आवेदन / प्रिंट</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ मोबाइल रिचार्ज / DTH</div>
+        <div class="service-card p-3 bg-white shadow rounded">✅ सभी सरकारी योजनाओं के आवेदन</div>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+        <img src="https://via.placeholder.com/150x100.png?text=Service+1" class="rounded shadow" alt="Service Image">
+        <img src="https://via.placeholder.com/150x100.png?text=Service+2" class="rounded shadow" alt="Service Image">
+        <img src="https://via.placeholder.com/150x100.png?text=Service+3" class="rounded shadow" alt="Service Image">
+        <img src="https://via.placeholder.com/150x100.png?text=Service+4" class="rounded shadow" alt="Service Image">
+      </div>
     </section>
 
     <section class="text-center">
       <h2 class="text-xl font-semibold mb-4">ग्राहक विवरण फॉर्म</h2>
-      <p>सेवा के लिए नीचे दिए गए लिंक पर क्लिक करके फॉर्म भरें:</p>
-      <a href="https://forms.gle/YOUR_FORM_LINK" class="mt-2 inline-block bg-green-600 text-white px-4 py-2 rounded">📋 फॉर्म भरें</a>
+      <p class="mb-2">नीचे दिए गए फॉर्म में अपनी जानकारी भरें:</p>
+      <iframe src="https://forms.gle/S2y8GbGKMq6AAr4QA" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
     </section>
 
     <section class="text-center">
       <h2 class="text-xl font-semibold mb-4">संपर्क करें</h2>
       <p>📞 8952880008 / 9610123332</p>
       <p>📧 atozcompletesolution.org@gmail.com</p>
-      <div class="flex justify-center gap-4 mt-2">
-        <a href="https://wa.me/918952880008" target="_blank">WhatsApp</a>
-        <a href="#" target="_blank">Instagram</a>
-        <a href="#" target="_blank">Facebook</a>
-        <a href="#" target="_blank">Telegram</a>
-        <a href="#" target="_blank">YouTube</a>
+      <div class="flex justify-center gap-6 mt-4 text-xl">
+        <a href="https://wa.me/918952880008" target="_blank" class="text-green-600"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://facebook.com/yourpage" target="_blank" class="text-blue-700"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/yourprofile" target="_blank" class="text-pink-500"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/yourhandle" target="_blank" class="text-blue-400"><i class="fab fa-twitter"></i></a>
+        <a href="https://youtube.com/@yourchannel" target="_blank" class="text-red-600"><i class="fab fa-youtube"></i></a>
       </div>
     </section>
   </main>
