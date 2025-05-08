@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AtoZ CSC & eMitra Center</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-blue-700 text-white p-6">
+    <h1 class="text-3xl font-bold">AtoZ CSC & eMitra Center - Peeplada</h1>
+    <p class="text-sm">Mitrapura, Sawai Madhopur, Rajasthan</p>
+  </header>
+
+  <main class="p-6 space-y-10">
+    <section class="text-center">
+      <h2 class="text-xl font-semibold mb-4">हमारी सेवाएं (Services)</h2>
+      <p class="mb-4">CSC और ई-मित्र केंद्र की सभी सेवाएं एक ही स्थान पर उपलब्ध हैं।</p>
+      <ul class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+        <li>✅ आधार अपडेट / प्रिंट</li>
+        <li>✅ पैन कार्ड</li>
+        <li>✅ बिजली बिल भुगतान</li>
+        <li>✅ जल जीवन मिशन</li>
+        <li>✅ जन्म/मृत्यु प्रमाण पत्र</li>
+        <li>✅ आय / जाति / निवास प्रमाण पत्र</li>
+        <li>✅ बैंकिंग सेवा (CSP)</li>
+        <li>✅ सरकारी योजनाएं आवेदन</li>
+      </ul>
+    </section>
+
+    <section class="text-center">
+      <h2 class="text-xl font-semibold mb-4">ग्राहक विवरण फॉर्म</h2>
+      <p>सेवा के लिए नीचे दिए गए लिंक पर क्लिक करके फॉर्म भरें:</p>
+      <a href="https://forms.gle/YOUR_FORM_LINK" class="mt-2 inline-block bg-green-600 text-white px-4 py-2 rounded">📋 फॉर्म भरें</a>
+    </section>
+
+    <section class="text-center">
+      <h2 class="text-xl font-semibold mb-4">संपर्क करें</h2>
+      <p>📞 8952880008 / 9610123332</p>
+      <p>📧 atozcompletesolution.org@gmail.com</p>
+      <div class="flex justify-center gap-4 mt-2">
+        <a href="https://wa.me/918952880008" target="_blank">WhatsApp</a>
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">Telegram</a>
+        <a href="#" target="_blank">YouTube</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white text-center p-4 mt-10">
+    &copy; 2025 AtoZ CSC & eMitra Center - All Rights Reserved
+  </footer>
+</body>
+</html>
